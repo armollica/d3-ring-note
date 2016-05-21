@@ -6,7 +6,7 @@ commenting on an area of a graphic or map.
 Inspired by the [swoopyDrag](http://1wheel.github.io/swoopy-drag/) 
 plugin and the annotations seen on 
 [these maps](http://www.nytimes.com/interactive/2014/11/04/upshot/senate-maps.html) 
-from the New York Times. 
+from the New York Times.
 
 ### Examples
 
@@ -81,3 +81,7 @@ If `true` then you will be able to move the circle's center, adjust the
 radius and move the text's location relative to the center. Defaults to
 `false` which disables this functionality and removes the draggable 
 control circles.
+
+### TODO:
+
+Add an example with multi-line text.
