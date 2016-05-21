@@ -1,7 +1,7 @@
 # d3.ringNote
 
-D3 plugin for placing circle annotation with text. Useful for commenting 
-on an area of a graphic or map.
+D3 plugin for creating and positioning circle and text annotation. Useful for 
+commenting on an area of a graphic or map.
 
 Inspired by the [swoopyDrag](http://1wheel.github.io/swoopy-drag/) 
 plugin and the annotations seen on 
