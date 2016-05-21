@@ -40,7 +40,7 @@ Creates a new annotation generator.
 
 Draws the annotation on the selection. The *selection* argument will 
 usually be an svg `<g>` node and the *annotations* argument will be an array of 
-objects, each each a specification for an individual annotation. The 
+objects, each a specification for an individual annotation. The 
 *annotations* array will look something like this:
 
 ```javascript
