@@ -3,8 +3,10 @@
 D3 plugin for placing circle annotation with text. Useful for commenting 
 on an area of a graphic or map.
 
-Inspired by the [swoopyDrag](http://1wheel.github.io/swoopy-drag/)
-annotation plugin.
+Inspired by the [swoopyDrag](http://1wheel.github.io/swoopy-drag/) 
+plugin and the annotations seen on 
+[these maps](http://www.nytimes.com/interactive/2014/11/04/upshot/senate-maps.html) 
+from the New York Times. 
 
 ### Examples
 
