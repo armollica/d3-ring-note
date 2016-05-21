@@ -12,11 +12,11 @@ annotation plugin.
   <tr>
     <td>
       Map Annotation<br>
-      <a href=""><img src="" width="230"></a>
+      <a href="http://bl.ocks.org/armollica/70afe1b4265425cb6e031b973e6d9811"><img src="map-thumbnail.png" width="230"></a>
     </td>
     <td>
       Chart Annotation<br>
-      <a href=""><img src="" width="230"></a>
+      <a href="http://bl.ocks.org/armollica/853c9344a7808619d863c8d7410062e6"><img src="chart-thumbnail.png" width="230"></a>
     </td>
   </tr>
 </table>
