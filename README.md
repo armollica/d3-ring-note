@@ -13,6 +13,10 @@ from the New York Times.
 <table>
   <tr>
     <td>
+      Ring Notes<br>
+      <a href="http://bl.ocks.org/armollica/67f3cf7bf08a02d95d48dc9f0c91f26c"><img src="img/ring-notes-thumbnail.png" width="230"></a>
+    </td>
+    <td>
       Map Annotation<br>
       <a href="http://bl.ocks.org/armollica/70afe1b4265425cb6e031b973e6d9811"><img src="img/map-thumbnail.png" width="230"></a>
     </td>
@@ -34,7 +38,7 @@ Save the `d3-ring-note.js` file from this repo and include it in your HTML after
 
 *#* d3.**ringNote**()
 
-Creates a new annotation generator.
+Creates a new annotation generator (see below how to use this). 
 
 *#* **ringNote**(*selection*, *annotations*)
 
@@ -50,6 +54,7 @@ var annotations = [
     "cy": 100,
     "r": 25,
     "text": "Something important you should know",
+    "textWidth": 150,
     "textOffset": [35, 40] 
   },
   ...
@@ -61,6 +66,7 @@ Each annotation's specification has the following properties:
 - `cy` - y-coordinate of the circle's center
 - `r` - radius of the circle
 - `text` - the text to be displayed
+- `textWidth` - the width (in pixels) at which the text should wrap into multi-line text (optional) 
 - `textOffset` - array [x, y] defining location of the text relative 
 to the circle's center
 
@@ -78,6 +84,8 @@ and then manually copy the text that gets output using your mouse.
 
 Defines whether the annotation should be draggable, `true` or `false`.
 If `true` then you will be able to move the circle's center, adjust the 
-radius and move the text's location relative to the center. Defaults to
+radius and move the text's location relative to the center. 
+
+Defaults to
 `false` which disables this functionality and removes the draggable 
-control circles.
+dashed-line circles.
