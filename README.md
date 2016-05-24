@@ -4,9 +4,9 @@ D3 plugin for creating and positioning circle and text annotation. Useful for
 commenting on an area of a graphic or map.
 
 Inspired by the [swoopyDrag](http://1wheel.github.io/swoopy-drag/) 
-plugin and the annotations seen on 
-[these maps](http://www.nytimes.com/interactive/2014/11/04/upshot/senate-maps.html) 
-from the New York Times. 
+plugin and the annotation on maps like
+[these](http://www.nytimes.com/interactive/2014/11/04/upshot/senate-maps.html) 
+from the New York Times.
 
 ### Examples
 
@@ -87,5 +87,5 @@ If `true` then you will be able to move the circle's center, adjust the
 radius and move the text's location relative to the center. 
 
 Defaults to
-`false` which disables this functionality and removes the draggable 
+`false` which disables this functionality and removes the draggable
 dashed-line circles.
