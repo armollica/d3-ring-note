@@ -86,7 +86,7 @@ method chaining:
 svg.append("g")
     .attr("class", "annotations")
     .call(ringNote, annotations)
-  .selectAll(".annotations circle")
+  .selectAll(".annotation circle")
     .style("fill", "none");
 ``` 
 Each annotation is wrapped in a 
