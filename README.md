@@ -80,6 +80,20 @@ The `copy()` function works in Chrome and Firefox
 but not Internet Explorer. For IE you can run `JSON.stringify(annotations)`
 and then manually copy the text that gets output using your mouse.
 
+The `ringNote` function returns the original selection which allows for 
+method chaining:
+```javascript
+svg.append("g")
+    .attr("class", "annotations")
+    .call(ringNote, annotations)
+  .selectAll(".annotations circle")
+    .style("fill", "none");
+``` 
+Each annotation is wrapped in a 
+`<g class="annotation">...</g>` node, letting you select and style
+the annotation's elements (e.g., the `circle`, `path` and `text`). Data from the *annotations* array is bound to this 
+node so you can style annotations differently based on data. 
+
 *#* ringNote.**draggable**(*draggable*)
 
 Defines whether the annotation should be draggable, `true` or `false`.
